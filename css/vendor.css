@@ -394,3 +394,16 @@ img.mfp-img {
   height: auto !important;
   z-index: -100;
 }
+
+/* Override: reduce main billboard heading size to match design */
+#billboard .banner-content h1.display-2 {
+  font-size: 3rem;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+@media (min-width: 992px) {
+  #billboard .banner-content h1.display-2 {
+    font-size: 3rem;
+  }
+}
